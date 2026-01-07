@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1; /* нежный розовый фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    width: 300px;           /* размер картинки */
+    cursor: pointer;         /* курсор меняется на руку */
+    margin-top: 20px;
+    border-radius: 15px;    /* скругленные углы */
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);  /* немного увеличивается при наведении */
+}
+
+.hidden {
+    display: none;           /* скрывает блок с текстом */
+}
+
+#message {
+    margin-top: 20px;
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
